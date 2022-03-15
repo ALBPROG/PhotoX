@@ -443,7 +443,8 @@ blockquote {
       rgba(21, 31, 32, 1) 0%,
       rgba(21, 31, 32, .95) 30%,
       transparent 50%),
-    url(images/form-img.jpeg) center center no-repeat /cover;
+    url(images/form-img.jpeg) center center no-repeat;
+   display-size: cover;
 }
 
 .input-form {
